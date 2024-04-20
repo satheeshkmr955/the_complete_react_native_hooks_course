@@ -47,6 +47,9 @@ export default function EditScreenInfo({ path }: { path: string }) {
           </Text>
         </ExternalLink>
       </View>
+      <Link href={"/box"} className="text-center">
+        <Text lightColor={Colors.light.tint}>Box Screen</Text>
+      </Link>
       <Link href={"/text-input"} className="text-center">
         <Text lightColor={Colors.light.tint}>TextInput Screen</Text>
       </Link>

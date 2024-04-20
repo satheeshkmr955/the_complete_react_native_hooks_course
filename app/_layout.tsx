@@ -17,7 +17,6 @@ import "../global.css";
 
 import { useColorScheme } from "@/components/useColorScheme";
 
-
 export {
   // Catch any errors thrown by the Layout component.
   ErrorBoundary,
@@ -67,6 +66,7 @@ function RootLayoutNav() {
           <Stack.Screen name="counter" options={{ title: "Counter" }} />
           <Stack.Screen name="color" options={{ title: "Color" }} />
           <Stack.Screen name="text-input" options={{ title: "Text Input" }} />
+          <Stack.Screen name="box" options={{ title: "Box" }} />
         </Stack>
       </SafeAreaProvider>
     </ThemeProvider>
