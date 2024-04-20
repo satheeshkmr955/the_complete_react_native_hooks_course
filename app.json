@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "twitch-app",
-    "slug": "twitch-app",
+    "name": "the_complete_react_native_hooks_course",
+    "slug": "the_complete_react_native_hooks_course",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

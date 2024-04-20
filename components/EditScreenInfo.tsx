@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "expo-router";
 
 import { ExternalLink } from "./ExternalLink";
 import { MonoText } from "./StyledText";
@@ -47,6 +47,27 @@ export default function EditScreenInfo({ path }: { path: string }) {
           </Text>
         </ExternalLink>
       </View>
+      <Link href={"/text-input"} className="text-center">
+        <Text lightColor={Colors.light.tint}>TextInput Screen</Text>
+      </Link>
+      <Link href={"/square"} className="text-center">
+        <Text lightColor={Colors.light.tint}>Square Screen</Text>
+      </Link>
+      <Link href={"/color"} className="text-center">
+        <Text lightColor={Colors.light.tint}>Color Screen</Text>
+      </Link>
+      <Link href={"/counter"} className="text-center">
+        <Text lightColor={Colors.light.tint}>Counter Screen</Text>
+      </Link>
+      <Link href={"/image"} className="text-center">
+        <Text lightColor={Colors.light.tint}>Image Screen</Text>
+      </Link>
+      <Link href={"/list"} className="text-center">
+        <Text lightColor={Colors.light.tint}>List Screen</Text>
+      </Link>
+      <Link href={"/animate"} className="text-center">
+        <Text lightColor={Colors.light.tint}>Animate Screen</Text>
+      </Link>
     </View>
   );
 }
